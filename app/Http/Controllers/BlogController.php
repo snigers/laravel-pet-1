@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MyAppController extends Controller
+class BlogController extends Controller
 {
     public function index() {
-        return "page Apps";
+        return "page Blog";
     }
 }

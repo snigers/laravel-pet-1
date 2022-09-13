@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MyContactsController extends Controller
+class ActivityController extends Controller
 {
     public function index() {
-        return "page Contacts";
+        return "page Activity";
     }
 }
